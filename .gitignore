@@ -133,4 +133,5 @@ dmypy.json
 *.xlsx
 *.h5
 *.pkl
+*.json
 

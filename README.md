@@ -26,16 +26,16 @@
   - 멜론 플레이리스트 데이터 수집 : 플레이리스트 수집을 위해 멜론 플레이리스트 약 11만 건 수집 (출처 : Kakao Arena)
 
 #### 데이터 전처리 및 분석
-  - 말뭉치 데이터 전처리 [관련 코드](https://github.com/leesominn/ProjectDL/blob/main/preprocessing/emotion_data_6label.ipynb)
+  - 말뭉치 데이터 전처리 [코드 링크](https://github.com/leesominn/ProjectDL/blob/main/preprocessing/emotion_data_6label.ipynb)
    - 단발성/연속적 대화 데이터셋 결합
    - 원천 분류 중 '중립'라벨 및 오타 처리된 감정 제거 -> 6가지 감정만 사용(공포, 혐오, 놀람, 분노, 슬픔, 행복)
-  - 플레이리스트 데이터 전처리 [관련 코드]()
+  - 플레이리스트 데이터 전처리 [코드 링크](https://github.com/leesominn/ProjectDL/tree/main/preprocessing)
     - 상위 노출 태그만 추출
     - 추출된 태그 중 감정 관련 태그를 제외한 장르 태그 제거
     - 태그를 감정과 매칭시켜 분류
     - 플레이리스트 태그 상위 노출 태그를 확인하기 위해 그래프로 시각화 진행, 라벨링에 활용
     
-#### 모델링
+#### 모델링 [코드 링크](https://github.com/leesominn/ProjectDL/tree/main/modeling)
   - Tensorflow와 다중감정 분류를 위해 Kobert 모델 활용
   - 모델 파라미터 커스텀 및 튜닝
   - 모델 예측 : 학습된 모델의 감정별 평균 정확도 확인, 예측 결과를 감정-확률 형태로 구현

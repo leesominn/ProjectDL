@@ -4,6 +4,7 @@
 ## 🖥️ 프로젝트 소개
 사용자의 입력 기반으로 감정 분석 및 플레이리스트 추천 서비스.
 단순한 플레이리스트 추천이 아닌 사용자의 감정에 기반한 플레이리스트를 추천해줌으로써 감정 해소 및 치유 효과를 기대
+[발표 PPT](https://github.com/leesominn/ProjectDL/blob/main/projectDL_presentation.pdf)
 <br>
 
 ### 🕰️ 개발 기간
